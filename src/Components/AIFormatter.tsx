@@ -1,9 +1,9 @@
 "use client";
 import { useState } from "react";
-import { debounce } from "lodash";
+// import { debounce } from "lodash";
 
 const AIFormatter: React.FC = () => {
-  const [analyzing, toggleAnalyze] = useState(false);
+  // const [analyzing, toggleAnalyze] = useState(false);
   const [prompt, setPrompt] = useState<string>("");
   const [response, setResponse] = useState<string | null>(null);
   const [loading, setLoading] = useState<boolean>(false);
