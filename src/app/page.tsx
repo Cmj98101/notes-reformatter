@@ -1,4 +1,4 @@
-import AIFormatter from "@/Components/AIFormatter";
+import AIFormatter from "@/components/AIFormatter";
 
 export default function Home() {
   return <AIFormatter></AIFormatter>;
